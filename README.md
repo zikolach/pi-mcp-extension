@@ -167,6 +167,8 @@ Config files are loaded from two locations. **Project config overrides global co
 | `/mcp:stop <name>` | Stop a running server and deactivate its tools |
 | `/mcp:auth <name>` | Reset OAuth credentials and authenticate a server |
 
+Server-name arguments provide autocomplete suggestions from the configured MCP servers. `/mcp:auth` suggests only servers configured for OAuth.
+
 ## How It Works
 
 ```
